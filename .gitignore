@@ -52,4 +52,4 @@ backend/backend/conversations.json
 backend/backend/session_titles.json
 backend/memory/index/short-term-recall.json
 backend/memory/daily/*.md
-backend/memory/corpus/*.txtproxy_tunnel.py
+
