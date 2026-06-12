@@ -9,4 +9,3 @@ pandas==2.2.3
 
 # ========== 工具库 ==========
 python-dotenv==1.0.1
-source /home/10359121/10359121/pro2/.venv/bin/activate
