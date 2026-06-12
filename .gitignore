@@ -1,0 +1,55 @@
+# ========== 敏感文件 ==========
+.env
+.env.*
+*.pem
+*.key
+
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========== 虚拟环境 ==========
+.venv/
+venv/
+ENV/
+env/
+
+# ========== IDE ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+
+# ========== 运行时数据 ==========
+backend/uploads/*
+!backend/uploads/.gitkeep
+backend/vector_db/*.index
+backend/vector_db/*.json
+backend/backend/conversations.json
+backend/backend/session_titles.json
+backend/memory/index/short-term-recall.json
+backend/memory/daily/*.md
+backend/memory/corpus/*.txt

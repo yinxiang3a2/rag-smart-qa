@@ -1,0 +1,32 @@
+# ========== Web 框架 ==========
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ========== 数据处理 ==========
+pydantic==2.9.2
+python-multipart==0.0.12
+
+# ========== 文档处理 (后续启用) ==========
+# python-docx==1.1.2          # Word 文档解析 (xxx)
+# PyMuPDF==1.24.12            # PDF 解析 (xxx)
+# pdfplumber==0.11.4          # PDF 解析备选 (xxx)
+# Pillow==10.4.0              # 图片处理 (xxx)
+# paddleocr==2.9.1            # OCR 识别 (xxx)
+# easyocr==1.7.2              # OCR 识别备选 (xxx)
+
+# ========== 向量数据库 (后续启用) ==========
+# chromadb==0.5.13            # ChromaDB 向量库 (xxx)
+faiss-cpu>=1.7.0             # FAISS 向量库
+# pymilvus==2.4.6             # Milvus 向量库备选 (xxx)
+
+# ========== 文档解析 ==========
+PyMuPDF>=1.24.0            # PDF 解析
+pdfplumber>=0.11.0          # PDF 解析备选
+python-docx>=1.1.0          # Word 文档解析
+
+# ========== LLM/嵌入 SDK ==========
+openai>=1.51.0                       # MiniMax LLM + 嵌入（OpenAI 兼容 API）
+python-dotenv>=1.0.0                  # 环境变量管理
+
+# ========== 工具库 ==========
+aiofiles==24.1.0
